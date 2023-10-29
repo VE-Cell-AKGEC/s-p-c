@@ -1,0 +1,238 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Libre+Baskerville:wght@700&family=Playfair:ital,wght@1,800&family=Poppins:wght@500&family=Roboto&family=Satisfy&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    font-size: 1.5rem;
+     font-family: 'Poppins', sans-serif;
+     height: 90px;
+     background-color:  rgb(109, 162, 109);
+}
+.logo{
+    font-size: 2.2rem;
+    width: 15%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.logo::first-letter{
+    color: green;
+    font-size: 3rem;
+}
+.nav-item a{
+   margin: 0px  20px;
+}
+.nav-item:hover{
+    background-color: rgb(46, 109, 46);
+    
+}
+.nav-link:hover{
+    color: white;
+}
+
+
+.banner{
+    background-image: url("soap.png");
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+.banner div{
+    width: 50%;
+    padding-top: 45px;
+    padding-left: 10%;
+}
+.banner p{
+   
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(5, 73, 5);
+}
+
+
+
+.spc_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.spc_head h3{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.spc{
+    width: 70%;
+    margin: 30px auto;
+    font-size: 1.2rem;
+}
+.spc_content{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+.feature_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.feature h3{
+   
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.feature_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+   margin: 50px 0px;
+    /* height: 45vh; */
+}
+.feature_box img{
+    height: 150px;
+    width: 200px;
+    
+}
+
+
+
+
+.about_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    margin: 20px auto;
+}
+.about_head h3{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.about{
+    width: 70%;
+    margin: 30px auto;
+    font-size: 1.2rem;
+}
+.about_content p{
+text-align: center;
+font-family: 'Roboto', sans-serif;
+}
+
+.properties_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.properties{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.properties_head h3{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.properties_content{
+    /* height: 100%; */
+    width: 50%;
+    font-size: 1.2rem;
+}
+.properties_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    width: 50%;
+}
+.properties_img img{
+    height: 100%;
+    width: 70%;
+}
+.properties_content p{
+    width: 80%;
+    margin: 30px auto;
+}
+.properties_content div{
+    width: 80%;
+    margin: 30px auto;
+    padding-left: 20px;
+}
+
+
+
+.contact-footer {
+    background-color: rgb(109, 162, 109);
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.insta {
+    height: 50px;
+}
+
+@media screen and (max-width:650px){
+    .feature_box{
+        flex-direction: column;
+    }
+    .properties{
+        flex-direction: column;
+    }
+    .properties_content{
+        height: 50%;
+        width: 100%;
+        
+    }
+    .properties_img{
+       
+        height: 50%;
+        width: 100%;
+    }
+    .rose_properties{
+        flex-direction: column-reverse;
+    }
+    .feature_box img{
+        height: 180px;
+        width: 250px;
+        margin: 20px auto;
+    }
+
+
+}
